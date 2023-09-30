@@ -1,5 +1,5 @@
 import { HandlerContext, Handlers } from '$fresh/src/server/types.ts'
-import KV from '../../db/kv.ts'
+import KV from '../../../db/kv.ts'
 
 export const handler: Handlers<unknown> = {
     async POST(req, _ctx: HandlerContext) {
